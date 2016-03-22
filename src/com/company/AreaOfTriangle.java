@@ -14,14 +14,15 @@ public class AreaOfTriangle {
         boolean Radius = true;
         boolean base = true;
         boolean height = true;
-        boolean AreaOfTriangle = true;
-        boolean AreaOfRectangle = true;
-        boolean AreaOfCircle = true;
-        int c = b * h / 2;
+        boolean AreaOfTriangle = true; //можно удалить, нигде не используется
+        boolean AreaOfRectangle = true; //можно удалить, нигде не используется
+        boolean AreaOfCircle = true;  //можно удалить, нигде не используется
+        int c = b * h / 2;  //поменять цыфру на константу
         int v = b * h;
         double a = 2.0D;
+        //
         double d = Math.pow((double)r, a);
-        double k = 3.14D * d;
+        double k = 3.14D * d;   // использую не понятную цыфру 3.14, нужно поменять на PI
         System.out.println(c);
         System.out.println(v);
         System.out.println(k);
